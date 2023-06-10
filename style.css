@@ -148,32 +148,7 @@ footer,header b{
   color: #47d9f6;
 }
 
-/* h1 animado */
-/* Estilos do título */
-.title-animado {
-  padding: 20px;
-  color:  #262524;
-  
-  display: grid;
-  flex-direction: column;
-  text-align: center;
-  animation: pulse 2.7s ease-in-out infinite;
-}
 
-/* Animação */
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
 
 
 .swiper-backface-hidden {
